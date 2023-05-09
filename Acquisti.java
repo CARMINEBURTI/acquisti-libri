@@ -1,7 +1,7 @@
-public class Acquista {
+public class Acquisti {
     private Acquisto[] lista;
     
-    public Acquista() {
+    public Acquisti() {
         lista = new Acquisto[0];
     }
     
