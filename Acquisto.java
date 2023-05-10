@@ -1,9 +1,11 @@
+import java.time.LocalDateTime;
+
 public class Acquisto {
-    private int utente;
+    private Utente utente;
     private Libro[] lista;
-    private localdatetime data;
+    private LocalDateTime data;
     
-    public Acquisto(String utente, String lista, localdatetime data) {
+    public Acquisto(Utente utente, Libro[] lista, LocalDateTime data) {
         setUtente(utente);
         setLista(lista);
         setData(data);
@@ -15,27 +17,27 @@ public class Acquisto {
         setData(a.getData());
     }
     
-    public void setData(int data) {
+    public void setData(LocalDateTime data) {
         this.data = data;
     }
     
-    public void setUtente(int utente) {
+    public void setUtente(Utente utente) {
         this.utente = utente;
     }
     
-    public void setLista(String lista) {
+    public void setLista(Libro[] lista) {
         this.lista = lista;
     }
     
-    public int getData() {
+    public LocalDateTime getData() {
         return data;
     }
     
-    public int getUtente() {
+    public Utente getUtente() {
         return utente;
     }
     
-    public String getLista() {
+    public Libro[] getLista() {
         return lista;
     }
 }
