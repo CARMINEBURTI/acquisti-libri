@@ -1,9 +1,9 @@
 public class Acquisto {
     private String utente;
-    private String lista;
-    private int data;
+    private Libro[] lista;
+    private localdatetime data;
     
-    public Acquisto(String utente, String lista, int data) {
+    public Acquisto(String utente, String lista, localdatetime data) {
         setUtente(utente);
         setLista(lista);
         setData(data);
