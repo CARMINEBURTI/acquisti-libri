@@ -1,5 +1,5 @@
 public class Acquisto {
-    private String utente;
+    private int utente;
     private Libro[] lista;
     private localdatetime data;
     
@@ -19,7 +19,7 @@ public class Acquisto {
         this.data = data;
     }
     
-    public void setUtente(String utente) {
+    public void setUtente(int utente) {
         this.utente = utente;
     }
     
@@ -31,7 +31,7 @@ public class Acquisto {
         return data;
     }
     
-    public String getUtente() {
+    public int getUtente() {
         return utente;
     }
     
