@@ -1,0 +1,16 @@
+public File(
+
+FileReader F=new FileReader("MarioRossi.txt");
+
+BufferReader R=new BufferReader(F);
+
+do{
+
+String S = R.readLine();
+
+String[]  Dati = S.Split(";");
+
+}
+while(S!=Null);
+
+
